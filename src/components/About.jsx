@@ -1,5 +1,5 @@
 import TypeIt from "typeit-react";
-
+import aboutImg from '/imgabout.png'
 export default function About(){
 
     
@@ -30,7 +30,7 @@ export default function About(){
                     </div>
                     <div className="col-sm image-about">
                         <center>
-                        <img src="/imgabout.png" alt="" className="img-fluid avatar"/>
+                        <img src={aboutImg} alt="" className="img-fluid avatar"/>
                         </center>
                     </div>
                 </div>

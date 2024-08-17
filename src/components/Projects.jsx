@@ -1,5 +1,5 @@
 import ProjectsCard from "./ProjectsCard"
-
+import imgproject1 from '/santrips.jpeg'
 export default function Projects(){
     return(<>
     <div className="projectscontainer" id="Projects">
@@ -10,7 +10,7 @@ export default function Projects(){
             
             <div className="projects-cards">
                 <ProjectsCard 
-                projectImage='/santrips.jpeg' 
+                projectImage={imgproject1}
                 projectName='SanTrips'
                 projectDescription='Web app for a tours agency located in the Dominican Republic. Made in a 3 person team directed by me in a time span of three months. Developed in Laravel 11, using Bootstrap, JS/AJAX and MySQL.'
                 projectViewingithub='https://github.com/OmarMSDZ/SanTripsApp.git'

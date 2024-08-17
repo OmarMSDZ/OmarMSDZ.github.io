@@ -1,3 +1,5 @@
+import contactImg from '/contact.png'
+
 export default function Contact() {
     return(
         <>
@@ -14,7 +16,7 @@ export default function Contact() {
                     </div>
                     
                     <div className="contactImage">
-                        <img src="/contact.png" alt="" className="img-fluid"/>
+                        <img src={contactImg} alt="" className="img-fluid"/>
                     </div>
                     
                 </div>
