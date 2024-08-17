@@ -4,6 +4,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 //importando vistas
 import Home from './views/Home'
+ 
+
 
 function App() {
  
@@ -15,6 +17,8 @@ function App() {
           <Routes>
             <Route index element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
+     
+            
           </Routes>
         </BrowserRouter>
       </div>

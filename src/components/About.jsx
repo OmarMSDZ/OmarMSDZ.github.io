@@ -4,12 +4,14 @@ export default function About(){
 
     
     return(<>
-        <div className="aboutpage">
-            <div className="container">
-                <div className="row d-flex   min-vh-100 justify-content-center align-items-center">
-                    <div className="col-sm text-about">
-                        {/* <h1 className="typed"> </h1> */}
+        <div className="aboutpage" id="About">
+          
+            <div className="container content">
 
+                
+                <div className="row d-flex min-vh-100 justify-content-center align-items-center mb-0">
+                    <div className="col-sm text-about">
+            
                         <center>
                     <TypeIt
                      as="h1"
@@ -28,7 +30,7 @@ export default function About(){
                     </div>
                     <div className="col-sm image-about">
                         <center>
-                        <img src="/imgabout.png" alt="" />
+                        <img src="/imgabout.png" alt="" className="img-fluid avatar"/>
                         </center>
                     </div>
                 </div>

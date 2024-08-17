@@ -21,6 +21,33 @@ h2{
   margin-right: 10px;
   margin-top: 5px;
 }
+/* agrandar links */
+.nav-link{
+  transition: transform .2s;
+}
+.nav-link:hover{
+  transform: scale(1.1);
+}
+/* linea debajo de los link */
+.nav-link::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover::after{
+  width: 100%; 
+  left: 0; 
+}
+
+
+
 .navbar-custom .nav-link.active {
   color: #ccc; /* Texto gris claro para el enlace activo */
 }
@@ -28,6 +55,23 @@ h2{
 
 
 /* seccion about */
+.aboutpage{
+  background-image: url('/coverimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+ 
+ 
+}
+
+/*zoom del avatar*/
+.avatar{
+  transition: transform .2s;
+}
+.avatar:hover{
+  transform: scale(1.1);
+}
+
 .text-about{
   
   color: white;
@@ -37,6 +81,21 @@ h2{
   animation-fill-mode: forwards;
 }
 
+/*seccion about 2*/
+.moreabout{
+  margin-bottom: 3rem;
+}
+.aboutme-separator{
+  color: white;
+}
+.terminalCard{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+.terminalYellow{
+  color: yellow;
+}
 
 /* seccion skills */
 .skillshead{
@@ -46,7 +105,7 @@ h2{
 
 .skillshr{
   color: white;
-  border: 2px solid white;
+ 
 }
 .skillscard{
   background-color: black;
@@ -70,6 +129,113 @@ h2{
   height: 50px;
 }
  
+.skillscard .skill-level{
+  color: white;
+  margin-left: 1.1em;
+}
+ 
+/*seccion projects*/
+.projectCard{
+  background-color: black;
+  border: 2px solid white;
+  max-width: 800px;
+  color: white;
+
+}
+
+.projectCard a{
+  margin-right: 1rem;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.project-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+}
+
+.projectscontainer-title{
+  text-align: center;
+}
+
+.projectsseparator{
+  color: white;
+
+}
+
+/*seccion contacto*/
+.contactContainer{
+  margin-top: 2em;
+  
+}
+.contactTitle{
+  text-align: center;
+}
+ 
+.contactSeparator{
+  color: white;
+ 
+}
+.contactButtons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contactButton{
+  width: 8em;
+  height: 8em;
+  border-radius: 12em;
+  margin-right: 0.6em;
+
+  background-color: black;
+  border: 2px solid white;
+  
+
+  transition: transform .2s;
+}
+
+.contactButton i{
+  color: white;
+}
+.contactButton:hover{
+  transform: scale(1.1);
+}
  
 
+.contactButton a{
+  text-decoration: none;
+  color: white;
+}
+
+.contactImage{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactImage img{
+  width: 12em;
+  height: 12em;
+}
+
+/* Footer */
+footer {
+  color: white;
+}
+
+footer i{
+  color: white;
+}
+
+.footerTextBlue{
+  color: rgb(62, 154, 240);
+}
  
+@media only screen and (max-width: 600px) {
+  
+  }  
