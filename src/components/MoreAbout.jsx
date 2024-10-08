@@ -19,7 +19,7 @@ export default function MoreAbout() {
                 - Years of experience: 1 year 📅 <br />
                 - Location: Santiago, Dominican Republic 🌎 <br />
                 - Status: Studying (CS Engineering) ⌨️<br />
-                - Currently Learning: React, NodeJS, NextJS 🪐 <br />
+                - Currently Learning: React & NodeJS 🪐 <br />
                 - Hobbies: Drawing, Coding, Gaming and SpeedCubing 🎨🎮
               </p>
               

@@ -12,9 +12,8 @@ export default function Projects(){
                 <ProjectsCard 
                 projectImage={imgproject1}
                 projectName='SanTrips'
-                projectDescription='Web app for a tours agency located in the Dominican Republic. Made in a 3 person team directed by me in a time span of three months. Developed in Laravel 11, using Bootstrap, JS/AJAX and MySQL.'
+                projectDescription='Web app for a tours agency located in the Dominican Republic. Made by a 3 person team managed by me in a time span of three months. Developed in Laravel 11, using Bootstrap, JS/AJAX, PayPal API and MySQL.'
                 projectViewingithub='https://github.com/OmarMSDZ/SanTripsApp.git'
-               
                 />
 
                 {/* <ProjectsCard 
